@@ -1,4 +1,42 @@
-site_name: My Docs
+site_name: Pythonキホンのキホンのキホン
 theme:
   name: material
-sync_main_only: true
+  features:
+  #   - toc.integrate
+  #   - navigation.top
+    - navigation.expand
+  #   - navigation.indexes
+# extra_css:
+#   - style.css
+markdown_extensions:
+  - pymdownx.highlight:
+
+nav:
+  - トップページ: index.md
+  - 教科書:
+    - 03_Pythonの基本:
+      - 関数とは: textbook/03_pgbasic/what_function.md
+      - print関数: textbook/03_pgbasic/print_function.md
+      - コメントとは: textbook/03_pgbasic/comment.md
+      - Pythonでプログラムを書くときのルール: textbook/03_pgbasic/rule.md
+    - 04_変数とデータ型:
+      - 文字列型: textbook/04_variables/string.md
+  - ミッション:
+    - はじめに: missions/index.md
+    - 第２ミッション:
+      - アジェンダ: missions/02_mission/index.md
+      - ミッション: missions/02_mission/mission.md
+      - デモ: missions/02_mission/demo.md
+      - レッスン:
+        - 関数とは: textbook/03_pgbasic/what_function.md
+        - print関数: textbook/03_pgbasic/print_function.md
+        - 文字列型: textbook/04_variables/string.md
+        - コメントとは: textbook/03_pgbasic/comment.md
+        - Pythonでプログラムを書くときのルール: textbook/03_pgbasic/rule.md
+      - トライ: missions/pyscript.html
+      - グッジョブ: missions/02_mission/good_job.md
+
+markdown_extensions:
+  - admonition
+
+# sync_main_only: true
