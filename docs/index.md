@@ -1,6 +1,7 @@
 # Python キホンのキホンのキホン
 
 * [教科書](01_textbook/index.md)
+* [ミッション](02_missions/index.md)
 
 <!-- * [プログラミングとは](01_textbook/01_pgintro/index.md)
 * [Pythonとは](01_textbook/02_pyintro/index.md)
@@ -27,5 +28,4 @@
 * [ラムダ式](01_textbook/23_lambda/index.md)
 * [正規表現](01_textbook/24_re/index.md) -->
 
-## ミッション
 
