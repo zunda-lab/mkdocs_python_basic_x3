@@ -4,7 +4,7 @@ theme:
   features:
   #   - toc.integrate
   #   - navigation.top
-    - navigation.expand
+  #  - navigation.expand
   #   - navigation.indexes
 # extra_css:
 #   - style.css
@@ -14,29 +14,89 @@ markdown_extensions:
 nav:
   - トップページ: index.md
   - 教科書:
+    - 01_プログラミングとは:
+      - プログラミングとは: 01_textbook/01_pgintro/index.md
+    - 02_Pythonとは:
+      - Pythonとは: 01_textbook/02_pyintro/index.md
     - 03_Pythonの基本:
-      - 関数とは: textbook/03_pgbasic/what_function.md
-      - print関数: textbook/03_pgbasic/print_function.md
-      - コメントとは: textbook/03_pgbasic/comment.md
-      - Pythonでプログラムを書くときのルール: textbook/03_pgbasic/rule.md
-    - 04_変数とデータ型:
-      - 文字列型: textbook/04_variables/string.md
+      - Pythonの基本: 01_textbook/03_pgbasic/index.md
+      - 関数とは: 01_textbook/03_pgbasic/what_function.md
+      - print関数: 01_textbook/03_pgbasic/print_function.md
+      - コメントとは: 01_textbook/03_pgbasic/comment.md
+      - Pythonでプログラムを書くときのルール: 01_textbook/03_pgbasic/rule.md
+    - 04_基本文法:
+      - 基本文法: 01_textbook/04_basic/index.md
+      - エラーについて学ぼう: 01_textbook/04_basic/about_error.md
+      - 初心者のルール違反あるある: 01_textbook/04_basic/beginners_rule_violations.md
+    - 05_変数とデータ型:
+      - 変数とデータ型: 01_textbook/05_variables/index.md
+      - 文字列型: 01_textbook/05_variables/string.md
+    - 06_文字列操作:
+      - 文字列操作: 01_textbook/06_string/index.md
+    - 07_演算子:
+      - 演算子: 01_textbook/07_operator/index.md
+    - 08_リスト型操作:
+      - リスト型操作: 01_textbook/08_list/index.md
+    - 09_タプル型操作:
+      - タプル型操作: 01_textbook/09_tuple/index.md
+    - 10_辞書型操作:
+      - 辞書型操作: 01_textbook/10_dictionary/index.md
+    - 11_集合型操作:
+      - 集合型操作: 01_textbook/11_set/index.md
+    - 12_条件分岐:
+      - 条件分岐: 01_textbook/12_condition/index.md
+    - 13_繰り返し処理:
+      - 繰り返し処理: 01_textbook/13_iterating/index.md
+    - 14_ファイル・フォルダ操作:
+      - ファイル・フォルダ操作: 01_textbook/14_files/index.md
+    - 15_日付時刻操作:
+      - 日付時刻操作: 01_textbook/15_datetime/index.md
+    - 16_構文エラー:
+      - 構文エラー: 01_textbook/16_serror/index.md
+    - 17_実行時エラー:
+      - 実行時エラー: 01_textbook/17_rerror/index.md
+    - 18_組込み関数:
+      - 組込み関数: 01_textbook/18_functions/index.md
+    - 19_標準ライブラリ:
+      - 標準ライブラリ: 01_textbook/19_libraries/index.md
+    - 20_オブジェクト指向（クラス・インスタンス）:
+      - オブジェクト指向（クラス・インスタンス）: 01_textbook/20_oo/index.md
+    - 21_例外処理:
+      - 例外処理: 01_textbook/21_exception/index.md
+    - 22_内包表記:
+      - 内包表記: 01_textbook/22_comprehensions/index.md
+    - 23_ラムダ式（無名関数）:
+      - ラムダ式: 01_textbook/23_lambda/index.md
+    - 24_正規表現:
+      - 正規表現: 01_textbook/24_re/index.md
+
   - ミッション:
-    - はじめに: missions/index.md
-    - 第２ミッション:
-      - アジェンダ: missions/02_mission/index.md
-      - ミッション: missions/02_mission/mission.md
-      - デモ: missions/02_mission/demo.md
+    - はじめに: 02_missions/index.md
+    - 第2ミッション:
+      - アジェンダ: 02_missions/02_mission/index.md
+      - ミッション: 02_missions/02_mission/mission.md
+      - デモ: 02_missions/02_mission/demo.md
       - レッスン:
-        - 関数とは: textbook/03_pgbasic/what_function.md
-        - print関数: textbook/03_pgbasic/print_function.md
-        - 文字列型: textbook/04_variables/string.md
-        - コメントとは: textbook/03_pgbasic/comment.md
-        - Pythonでプログラムを書くときのルール: textbook/03_pgbasic/rule.md
-      - トライ: missions/pyscript.html
-      - グッジョブ: missions/02_mission/good_job.md
+        - 関数とは: 01_textbook/03_pgbasic/what_function.md
+        - print関数: 01_textbook/03_pgbasic/print_function.md
+        - 文字列型: 01_textbook/05_variables/string.md
+        - コメントとは: 01_textbook/03_pgbasic/comment.md
+        - Pythonでプログラムを書くときのルール: 01_textbook/03_pgbasic/rule.md
+      - トライ: 02_missions/pyscript.html
+      - グッジョブ: 02_missions/02_mission/good_job.md
+    - 第3ミッション:
+      - アジェンダ: 02_missions/03_mission/index.md
+      - ミッション: 02_missions/03_mission/mission.md
+      - デモ: 02_missions/03_mission/demo.md
+      - レッスン:
+        - エラーについて学ぼう: 01_textbook/04_basic/about_error.md
+        - 初心者のルール違反あるある: 01_textbook/04_basic/beginners_rule_violations.md
+      - トライ: 02_missions/pyscript.html
+      - グッジョブ: 02_missions/03_mission/good_job.md
 
 markdown_extensions:
   - admonition
+  - def_list
+
 
 # sync_main_only: true
