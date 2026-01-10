@@ -1,6 +1,6 @@
 # Python キホンのキホンのキホン
 
-## 教科書
+* [教科書](01_textbook/index.md)
 
 <!-- * [プログラミングとは](01_textbook/01_pgintro/index.md)
 * [Pythonとは](01_textbook/02_pyintro/index.md)
