@@ -4,7 +4,7 @@ theme:
   features:
   #   - toc.integrate
   #   - navigation.top
-  #  - navigation.expand
+   - navigation.expand
   #   - navigation.indexes
 # extra_css:
 #   - style.css
@@ -25,6 +25,7 @@ nav:
       - print関数: 01_textbook/03_pgbasic/print_function.md
       - コメントとは: 01_textbook/03_pgbasic/comment.md
       - Pythonでプログラムを書くときのルール: 01_textbook/03_pgbasic/rule.md
+      - 四則演算子について学ぼう: 01_textbook/03_pgbasic/four_arithmetic_operations.md
     - 04_基本文法:
       - 基本文法: 01_textbook/04_basic/index.md
       - エラーについて学ぼう: 01_textbook/04_basic/about_error.md
@@ -32,8 +33,10 @@ nav:
     - 05_変数とデータ型:
       - 変数とデータ型: 01_textbook/05_variables/index.md
       - 文字列型: 01_textbook/05_variables/string.md
+      - 変数と代入について学ぼう: 01_textbook/05_variables/variables_and_assignment.md
     - 06_文字列操作:
       - 文字列操作: 01_textbook/06_string/index.md
+      - 文字列に変数を埋め込む方法を学ぼう: 01_textbook/06_string/formatted_string.md
     - 07_演算子:
       - 演算子: 01_textbook/07_operator/index.md
     - 08_リスト型操作:
@@ -76,28 +79,50 @@ nav:
     - 第2ミッション:
       - アジェンダ: 02_missions/02_mission/index.md
       - ミッション: 02_missions/02_mission/mission.md
-      - デモ: 02_missions/02_mission/demo.md
+      - デモ: 02_missions/02_mission/demo_01.md
       - レッスン:
         - 関数とは: 01_textbook/03_pgbasic/what_function.md
         - print関数: 01_textbook/03_pgbasic/print_function.md
         - 文字列型: 01_textbook/05_variables/string.md
         - コメントとは: 01_textbook/03_pgbasic/comment.md
         - Pythonでプログラムを書くときのルール: 01_textbook/03_pgbasic/rule.md
-      - トライ: 02_missions/pyscript.html
+      - トライ: 02_missions/02_mission/try_01.md
       - グッジョブ: 02_missions/02_mission/good_job.md
     - 第3ミッション:
       - アジェンダ: 02_missions/03_mission/index.md
       - ミッション: 02_missions/03_mission/mission.md
-      - デモ: 02_missions/03_mission/demo.md
+      - デモ: 02_missions/03_mission/demo_01.md
       - レッスン:
         - エラーについて学ぼう: 01_textbook/04_basic/about_error.md
         - 初心者のルール違反あるある: 01_textbook/04_basic/beginners_rule_violations.md
-      - トライ: 02_missions/pyscript.html
+      - トライ: 02_missions/03_mission/try_01.md
       - グッジョブ: 02_missions/03_mission/good_job.md
+    - 第4ミッション:
+      - アジェンダ: 02_missions/04_mission/index.md
+      - ミッション: 02_missions/04_mission/mission.md
+      - デモ（1）: 02_missions/04_mission/demo_01.md
+      - レッスン:
+        - 四則演算子について学ぼう: 01_textbook/03_pgbasic/four_arithmetic_operations.md
+      - トライ（1）: 02_missions/04_mission/try_01.md
+      - デモ（2）: 02_missions/04_mission/demo_02.md
+      - レッスン:
+        - 変数と代入について学ぼう: 01_textbook/05_variables/variables_and_assignment.md
+      - トライ（2）: 02_missions/04_mission/try_02.md
+      - デモ（3）: 02_missions/04_mission/demo_03.md
+      - レッスン:
+        - 文字列に変数を埋め込む方法を学ぼう: 01_textbook/06_string/formatted_string.md
+      - トライ（3）: 02_missions/04_mission/try_03.md
+      - デモ（4）: 02_missions/04_mission/demo_04.md
+      - レッスン:
+        - 変数を使って四則演算の結果を表示する方法を学ぼう: 02_missions/04_mission/lesson_01.md
+      - トライ（4）: 02_missions/04_mission/try_04.md
+      - グッジョブ: 02_missions/04_mission/good_job.md
+
 
 markdown_extensions:
   - admonition
   - def_list
+  - attr_list
 
 
 # sync_main_only: true
