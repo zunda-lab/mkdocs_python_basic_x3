@@ -130,6 +130,24 @@ nav:
         - 指定した文字列を一括置換する方法について学ぼう: 02_missions/05_mission/lesson_01.md
       - トライ（2）: 02_missions/05_mission/try_02.md
       - グッジョブ: 02_missions/05_mission/good_job.md
+    - 第6ミッション:
+      - アジェンダ: 02_missions/06_mission/index.md
+      - ミッション: 02_missions/06_mission/mission.md
+      - デモ（1）: 02_missions/06_mission/demo_01.md
+      - レッスン:
+        - 今日の日付を取得する方法を学ぼう: 01_textbook/15_datetime/today.md
+      - トライ（1）: 02_missions/06_mission/try_01.md
+      - デモ（2）: 02_missions/06_mission/demo_02.md
+      - レッスン:
+        - 日付の引き算をする方法を学ぼう: 01_textbook/15_datetime/difference.md
+      - トライ（2）: 02_missions/06_mission/try_02.md
+      - デモ（3）: 02_missions/06_mission/demo_03.md
+      - レッスン:
+        - 今日が生まれてから何日目か表示する方法について学ぼう: 02_missions/06_mission/lesson_01.md
+      - トライ（）: 02_missions/06_mission/try_03.md
+      - グッジョブ: 02_missions/06_mission/good_job.md
+
+
 
 
 
