@@ -29,6 +29,7 @@ nav:
     - 01_プログラミングとは:
       - プログラミングとは: 01_textbook/01_pgintro/index.md
       - プログラムの流れ: 01_textbook/01_pgintro/program_flow.md
+      - 繰り返し: 01_textbook/01_pgintro/iterating.md
       - 真偽値: 01_textbook/01_pgintro/boolean_value.md
       - 条件分岐のバリエーション: 01_textbook/01_pgintro/conditional_branch_variations.md
       - フラグとは: 01_textbook/01_pgintro/flag.md
@@ -62,6 +63,7 @@ nav:
       - 条件式と真偽値: 01_textbook/07_operator/conditional_expression_and_boolean_value.md
     - 08_リスト型操作:
       - リスト型操作: 01_textbook/08_list/index.md
+      - リストの基本: 01_textbook/08_list/list_basic.md
     - 09_タプル型操作:
       - タプル型操作: 01_textbook/09_tuple/index.md
     - 10_辞書型操作:
@@ -76,6 +78,10 @@ nav:
       - if文のエラーあるある: 01_textbook/12_condition/common_errors_with_if_statements.md
     - 13_繰り返し処理:
       - 繰り返し処理: 01_textbook/13_iterating/index.md
+      - リストを利用した繰り返し: 01_textbook/13_iterating/loop_using_list.md
+      - for文（リスト利用）: 01_textbook/13_iterating/for_statement_using_list.md
+      - for文のエラーあるある: 01_textbook/13_iterating/common_errors_with_for_statement.md
+      - range関数: 01_textbook/13_iterating/range_function.md
     - 14_ファイル・フォルダ操作:
       - ファイル・フォルダ操作: 01_textbook/14_files/index.md
     - 15_日付時刻操作:
@@ -199,4 +205,32 @@ nav:
         - うるう年かそうでないか判定する方法を学ぼう（2）: 02_missions/07_mission/lesson_03.md
       - トライ（3）: 02_missions/07_mission/try_03.md
       - グッジョブ: 02_missions/07_mission/good_job.md
+    - 第8ミッション:
+      - アジェンダ: 02_missions/08_mission/index.md
+      - ミッション: 02_missions/08_mission/mission.md
+      - デモ(1): 02_missions/08_mission/demo_01.md
+      - レッスン(1):
+        - これまで学んだことだけで3の倍数を表示してみよう: 02_missions/08_mission/lesson_01.md
+      - トライ(1): 02_missions/08_mission/try_01.md
+      - デモ(2): 02_missions/08_mission/demo_02.md
+      - レッスン(2):
+        - リストとfor文を使って3の倍数を表示する方法を学ぼう: 02_missions/08_mission/lesson_02.md
+        - リストの基本: 01_textbook/08_list/list_basic.md
+        - 繰り返し: 01_textbook/01_pgintro/iterating.md
+        - リストを利用した繰り返し: 01_textbook/13_iterating/loop_using_list.md
+        - for文（リスト利用）: 01_textbook/13_iterating/for_statement_using_list.md
+        - 3の倍数を表示する: 02_missions/08_mission/lesson_03.md
+        - for文のエラーあるある: 01_textbook/13_iterating/common_errors_with_for_statement.md
+      - トライ(2): 02_missions/08_mission/try_02.md
+      - デモ(3): 02_missions/08_mission/demo_03.md
+      - レッスン(1):
+        - range関数を使って3の倍数を表示する方法を学ぼう: 02_missions/08_mission/lesson_04.md
+        - range関数: 01_textbook/13_iterating/range_function.md
+      - トライ(3): 02_missions/08_mission/try_03.md
+      - デモ(4): 02_missions/08_mission/demo_04.md
+      - レッスン(4):
+        - 1から100までの3の倍数を表示する方法を学ぼう: 02_missions/08_mission/lesson_05.md
+      - トライ(4): 02_missions/08_mission/try_04.md
+      - グッジョブ: 02_missions/08_mission/good_job.md
+
 

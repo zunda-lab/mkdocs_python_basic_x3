@@ -1,0 +1,31 @@
+# アジェンダ
+
+* [アジェンダ](./index.md)
+* [ミッション](./mission.md)
+* [デモ(1)](./demo_01.md)
+* レッスン(1)
+    * [これまで学んだことだけで3の倍数を表示してみよう](./lesson_01.md)
+* [トライ(1)](./try_01.md)
+* [デモ(2)](./demo_02.md)
+* レッスン(2)
+    * [リストとfor文を使って3の倍数を表示する方法を学ぼう](./lesson_02.md)
+    * [リストの基本](../../01_textbook/08_list/list_basic.md)
+    * [繰り返し](../../01_textbook/01_pgintro/iterating.md)
+    * [リストを利用した繰り返し](../../01_textbook/13_iterating/loop_using_list.md)
+    * [for文（リスト利用）](../../01_textbook/13_iterating/for_statement_using_list.md)
+    * [3の倍数を表示する](./lesson_03.md)
+    * [for文のエラーあるある](../../01_textbook/13_iterating/common_errors_with_for_statement.md)
+* [トライ(2)](./try_02.md)
+* [デモ(3)](./demo_03.md)
+* レッスン(1)
+    * [range関数を使って3の倍数を表示する方法を学ぼう](./lesson_04.md)
+    * [range関数](../../01_textbook/13_iterating/range_function.md)
+* [トライ(3)](./try_03.md)
+* [デモ(4)](./demo_04.md)
+* レッスン(4)
+    * [1から100までの3の倍数を表示する方法を学ぼう](./lesson_05.md)
+* [トライ(4)](./try_04.md)
+* [グッジョブ](./good_job.md)
+
+
+
