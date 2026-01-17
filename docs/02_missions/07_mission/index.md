@@ -1,0 +1,32 @@
+# アジェンダ
+
+* [アジェンダ](./index.md)
+* [ミッション](./mission.md)
+* [デモ(1)](./demo_01.md)
+* レッスン(1)
+    * [プログラムの流れ](../../01_textbook/01_pgintro/program_flow.md)
+    * [条件分岐のバリエーション](../../01_textbook/01_pgintro/conditional_branch_variations.md)
+    * [if文（満たすときだけ処理）](../../01_textbook/12_condition/if_branch.md)
+    * [if文（満たさない場合も処理）](../../01_textbook/12_condition/if_else_branch.md)
+    * [ブロックとインデント](../../01_textbook/03_pgbasic/block_and_indent.md)
+    * [条件式](../../01_textbook/07_operator/conditional_expression.md)
+    * [比較演算子](../../01_textbook/07_operator/comparison_operator.md)
+    * [真偽値](../../01_textbook/01_pgintro/boolean_value.md)
+    * [条件式と真偽値](../../01_textbook/07_operator/conditional_expression_and_boolean_value.md)
+    * [if文のエラーあるある](../../01_textbook/12_condition/common_errors_with_if_statements.md)
+* [トライ(1)](./try_01.md)
+* [デモ(2)](./demo_02.md)
+* レッスン(1)
+    * [if文（３段以上に分岐させる）](../../01_textbook/12_condition/if_elif_else_branch.md)
+* [トライ(2)](./try_02.md)
+* [デモ(3)](./demo_03.md)
+* レッスン(1)
+    * [うるう年かそうでないか判定する方法を学ぼう（1）](./lesson_01.md)
+    * [フラグとは](../../01_textbook/01_pgintro/flag.md)
+    * [print関数で改行しない方法](../../01_textbook/03_pgbasic/print_function_without_newline.md)
+    * [うるう年かそうでないか判定する方法を学ぼう（2）](./lesson_02.md)
+* [トライ(3)](./try_03.md)
+* [グッジョブ](./good_job.md)
+
+
+

@@ -10,6 +10,17 @@ theme:
 #   - style.css
 markdown_extensions:
   - pymdownx.highlight:
+  - admonition
+  - def_list
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+# sync_main_only: true
 
 nav:
   - トップページ: index.md
@@ -17,15 +28,21 @@ nav:
     - 教科書トップページ: 01_textbook/index.md
     - 01_プログラミングとは:
       - プログラミングとは: 01_textbook/01_pgintro/index.md
+      - プログラムの流れ: 01_textbook/01_pgintro/program_flow.md
+      - 真偽値: 01_textbook/01_pgintro/boolean_value.md
+      - 条件分岐のバリエーション: 01_textbook/01_pgintro/conditional_branch_variations.md
+      - フラグとは: 01_textbook/01_pgintro/flag.md
     - 02_Pythonとは:
       - Pythonとは: 01_textbook/02_pyintro/index.md
     - 03_Pythonの基本:
       - Pythonの基本: 01_textbook/03_pgbasic/index.md
       - 関数とは: 01_textbook/03_pgbasic/what_function.md
       - print関数: 01_textbook/03_pgbasic/print_function.md
+      - print関数で改行しない方法: 01_textbook/03_pgbasic/print_function_without_newline.md
       - コメントとは: 01_textbook/03_pgbasic/comment.md
       - Pythonでプログラムを書くときのルール: 01_textbook/03_pgbasic/rule.md
       - 四則演算子について学ぼう: 01_textbook/03_pgbasic/four_arithmetic_operations.md
+      - ブロックとインデント: 01_textbook/03_pgbasic/block_and_indent.md
     - 04_基本文法:
       - 基本文法: 01_textbook/04_basic/index.md
       - エラーについて学ぼう: 01_textbook/04_basic/about_error.md
@@ -40,6 +57,9 @@ nav:
       - 文字列を置換するreplaceメソッドを学ぼう: 01_textbook/06_string/replace_method.md
     - 07_演算子:
       - 演算子: 01_textbook/07_operator/index.md
+      - 比較演算子: 01_textbook/07_operator/comparison_operator.md
+      - 条件式: 01_textbook/07_operator/conditional_expression.md
+      - 条件式と真偽値: 01_textbook/07_operator/conditional_expression_and_boolean_value.md
     - 08_リスト型操作:
       - リスト型操作: 01_textbook/08_list/index.md
     - 09_タプル型操作:
@@ -50,6 +70,10 @@ nav:
       - 集合型操作: 01_textbook/11_set/index.md
     - 12_条件分岐:
       - 条件分岐: 01_textbook/12_condition/index.md
+      - if文（満たすときだけ処理）: 01_textbook/12_condition/if_branch.md
+      - if文（満たさない場合も処理）: 01_textbook/12_condition/if_else_branch.md
+      - if文（３段以上に分岐させる）: 01_textbook/12_condition/if_elif_else_branch.md
+      - if文のエラーあるある: 01_textbook/12_condition/common_errors_with_if_statements.md
     - 13_繰り返し処理:
       - 繰り返し処理: 01_textbook/13_iterating/index.md
     - 14_ファイル・フォルダ操作:
@@ -146,15 +170,33 @@ nav:
         - 今日が生まれてから何日目か表示する方法について学ぼう: 02_missions/06_mission/lesson_01.md
       - トライ（）: 02_missions/06_mission/try_03.md
       - グッジョブ: 02_missions/06_mission/good_job.md
+    - 第7ミッション:
+      - アジェンダ: 02_missions/07_mission/index.md
+      - ミッション: 02_missions/07_mission/mission.md
+      - デモ（1）: 02_missions/07_mission/demo_01.md
+      - レッスン:
+        - 奇数偶数の判定方法を学ぼう: 02_missions/07_mission/lesson_01.md
+        - プログラムの流れ: 01_textbook/01_pgintro/program_flow.md
+        - 条件分岐のバリエーション: 01_textbook/01_pgintro/conditional_branch_variations.md
+        - if文（満たすときだけ処理）: 01_textbook/12_condition/if_branch.md
+        - if文（満たさない場合も処理）: 01_textbook/12_condition/if_else_branch.md
+        - ブロックとインデント: 01_textbook/03_pgbasic/block_and_indent.md
+        - 条件式: 01_textbook/07_operator/conditional_expression.md
+        - 比較演算子: 01_textbook/07_operator/comparison_operator.md
+        - 真偽値: 01_textbook/01_pgintro/boolean_value.md
+        - 条件式と真偽値: 01_textbook/07_operator/conditional_expression_and_boolean_value.md
+        - if文のエラーあるある: 01_textbook/12_condition/common_errors_with_if_statements.md
+      - トライ（1）: 02_missions/07_mission/try_01.md
+      - デモ（2）: 02_missions/07_mission/demo_02.md
+      - レッスン:
+        - if文（３段以上に分岐させる）: 01_textbook/12_condition/if_elif_else_branch.md
+      - トライ（2）: 02_missions/07_mission/try_02.md
+      - デモ（3）: 02_missions/07_mission/demo_03.md
+      - レッスン:
+        - うるう年かそうでないか判定する方法を学ぼう（1）: 02_missions/07_mission/lesson_02.md
+        - フラグとは: 01_textbook/01_pgintro/flag.md
+        - print関数で改行しない方法: 01_textbook/03_pgbasic/print_function_without_newline.md
+        - うるう年かそうでないか判定する方法を学ぼう（2）: 02_missions/07_mission/lesson_03.md
+      - トライ（3）: 02_missions/07_mission/try_03.md
+      - グッジョブ: 02_missions/07_mission/good_job.md
 
-
-
-
-
-markdown_extensions:
-  - admonition
-  - def_list
-  - attr_list
-
-
-# sync_main_only: true
