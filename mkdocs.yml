@@ -40,6 +40,8 @@ nav:
       - 関数とは: 01_textbook/03_pgbasic/what_function.md
       - print関数: 01_textbook/03_pgbasic/print_function.md
       - print関数で改行しない方法: 01_textbook/03_pgbasic/print_function_without_newline.md
+      - print関数で末尾に空白を表示する方法: 01_textbook/03_pgbasic/print_function_with_trailing_spaces.md
+      - print関数で改行だけする方法: 01_textbook/03_pgbasic/print_function_only_newline.md
       - コメントとは: 01_textbook/03_pgbasic/comment.md
       - Pythonでプログラムを書くときのルール: 01_textbook/03_pgbasic/rule.md
       - 四則演算子について学ぼう: 01_textbook/03_pgbasic/four_arithmetic_operations.md
@@ -81,6 +83,7 @@ nav:
       - リストを利用した繰り返し: 01_textbook/13_iterating/loop_using_list.md
       - for文（リスト利用）: 01_textbook/13_iterating/for_statement_using_list.md
       - for文のエラーあるある: 01_textbook/13_iterating/common_errors_with_for_statement.md
+      - 二重ループのプログラム（for文）: 01_textbook/13_iterating/double_loop_with_for_statement.md
       - range関数: 01_textbook/13_iterating/range_function.md
     - 14_ファイル・フォルダ操作:
       - ファイル・フォルダ操作: 01_textbook/14_files/index.md
@@ -232,5 +235,22 @@ nav:
         - 1から100までの3の倍数を表示する方法を学ぼう: 02_missions/08_mission/lesson_05.md
       - トライ(4): 02_missions/08_mission/try_04.md
       - グッジョブ: 02_missions/08_mission/good_job.md
+    - 第9ミッション:
+      - アジェンダ: 02_missions/09_mission/index.md
+      - ミッション: 02_missions/09_mission/mission.md
+      - デモ(1): 02_missions/09_mission/demo_01.md
+      - レッスン(1):
+        - 九九を表示する方法を学ぼう: 02_missions/09_mission/lesson_01.md
+        - print関数で末尾に空白を表示する方法: 01_textbook/03_pgbasic/print_function_with_trailing_spaces.md
+        - print関数で改行だけする方法: 01_textbook/03_pgbasic/print_function_only_newline.md
+        - 二重ループのプログラム（for文）: 01_textbook/13_iterating/double_loop_with_for_statement.md
+        - 九九を表示する方法: 02_missions/09_mission/lesson_02.md
+      - トライ(1): 02_missions/09_mission/try_01.md
+      - デモ(2): 02_missions/09_mission/demo_02.md
+      - レッスン(2):
+        - 十十を表示する方法を学ぼう: 02_missions/09_mission/lesson_03.md
+      - トライ(2): 02_missions/09_mission/try_02.md
+      - グッジョブ: 02_missions/09_mission/good_job.md
+
 
 
