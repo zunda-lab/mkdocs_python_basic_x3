@@ -58,6 +58,7 @@ nav:
       - 文字列操作: 01_textbook/06_string/index.md
       - 文字列に変数を埋め込む方法を学ぼう: 01_textbook/06_string/formatted_string.md
       - 文字列を置換するreplaceメソッドを学ぼう: 01_textbook/06_string/replace_method.md
+      - 文字列を繰り返す: 01_textbook/06_string/repeat_string.md
     - 07_演算子:
       - 演算子: 01_textbook/07_operator/index.md
       - 比較演算子: 01_textbook/07_operator/comparison_operator.md
@@ -89,24 +90,31 @@ nav:
       - ファイル・フォルダ操作: 01_textbook/14_files/index.md
     - 15_日付時刻操作:
       - 日付時刻操作: 01_textbook/15_datetime/index.md
-    - 16_構文エラー:
-      - 構文エラー: 01_textbook/16_serror/index.md
-    - 17_実行時エラー:
-      - 実行時エラー: 01_textbook/17_rerror/index.md
-    - 18_組込み関数:
-      - 組込み関数: 01_textbook/18_functions/index.md
-    - 19_標準ライブラリ:
-      - 標準ライブラリ: 01_textbook/19_libraries/index.md
-    - 20_オブジェクト指向（クラス・インスタンス）:
-      - オブジェクト指向（クラス・インスタンス）: 01_textbook/20_oo/index.md
-    - 21_例外処理:
-      - 例外処理: 01_textbook/21_exception/index.md
-    - 22_内包表記:
-      - 内包表記: 01_textbook/22_comprehensions/index.md
-    - 23_ラムダ式（無名関数）:
-      - ラムダ式: 01_textbook/23_lambda/index.md
-    - 24_正規表現:
-      - 正規表現: 01_textbook/24_re/index.md
+    - 16_自作関数:
+      - 自作関数: 01_textbook/16_userfunction/index.md
+      - 関数とは: 01_textbook/16_userfunction/function_basic.md
+      - オリジナルの関数: 01_textbook/16_userfunction/original_function.md
+      - 関数とメソッド: 01_textbook/16_userfunction/functions_and_methods.md
+      - 関数の命名ルール: 01_textbook/16_userfunction/function_naming_rule.md
+      - 関数のエラーあるある: 01_textbook/16_userfunction/common_errors_function.md
+    - 17_構文エラー:
+      - 構文エラー: 01_textbook/17_serror/index.md
+    - 18_実行時エラー:
+      - 実行時エラー: 01_textbook/18_rerror/index.md
+    - 19_組込み関数:
+      - 組込み関数: 01_textbook/19_binfunctions/index.md
+    - 20_標準ライブラリ:
+      - 標準ライブラリ: 01_textbook/20_libraries/index.md
+    - 21_オブジェクト指向（クラス・インスタンス）:
+      - オブジェクト指向（クラス・インスタンス）: 01_textbook/21_oo/index.md
+    - 22_例外処理:
+      - 例外処理: 01_textbook/22_exception/index.md
+    - 23_内包表記:
+      - 内包表記: 01_textbook/23_comprehensions/index.md
+    - 24_ラムダ式（無名関数）:
+      - ラムダ式: 01_textbook/24_lambda/index.md
+    - 25_正規表現:
+      - 正規表現: 01_textbook/25_re/index.md
 
   - ミッション:
     - はじめに: 02_missions/index.md
@@ -226,7 +234,7 @@ nav:
         - for文のエラーあるある: 01_textbook/13_iterating/common_errors_with_for_statement.md
       - トライ(2): 02_missions/08_mission/try_02.md
       - デモ(3): 02_missions/08_mission/demo_03.md
-      - レッスン(1):
+      - レッスン(3):
         - range関数を使って3の倍数を表示する方法を学ぼう: 02_missions/08_mission/lesson_04.md
         - range関数: 01_textbook/13_iterating/range_function.md
       - トライ(3): 02_missions/08_mission/try_03.md
@@ -251,6 +259,29 @@ nav:
         - 十十を表示する方法を学ぼう: 02_missions/09_mission/lesson_03.md
       - トライ(2): 02_missions/09_mission/try_02.md
       - グッジョブ: 02_missions/09_mission/good_job.md
+    - 第10ミッション:
+      - アジェンダ: 02_missions/10_mission/index.md
+      - ミッション: 02_missions/10_mission/mission.md
+      - デモ(1): 02_missions/10_mission/demo_01.md
+      - レッスン(1):
+        - 関数を定義する方法を学ぼう: 02_missions/10_mission/lesson_01.md
+        - 関数とは: 01_textbook/16_userfunction/function_basic.md
+        - オリジナルの関数: 01_textbook/16_userfunction/original_function.md
+        - 関数とメソッド: 01_textbook/16_userfunction/functions_and_methods.md
+        - 文字列を繰り返す: 01_textbook/06_string/repeat_string.md
+        - 関数の命名ルール: 01_textbook/16_userfunction/function_naming_rule.md
+        - 関数のエラーあるある: 01_textbook/16_userfunction/common_errors_function.md
+      - トライ(1): 02_missions/10_mission/try_01.md
+      - デモ(2): 02_missions/10_mission/demo_02.md
+      - レッスン(2):
+        - 数値の大きさを棒で表示する方法を学ぼう: 02_missions/10_mission/lesson_02.md
+      - トライ(2): 02_missions/10_mission/try_02.md
+      - デモ(3): 02_missions/10_mission/demo_03.md
+      - レッスン(3):
+        - 棒グラフを表示する方法を学ぼう: 02_missions/10_mission/lesson_03.md
+      - トライ(3): 02_missions/10_mission/try_03.md
+      - グッジョブ: 02_missions/10_mission/good_job.md
+
 
 
 
