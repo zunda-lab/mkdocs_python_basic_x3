@@ -35,21 +35,21 @@ nav:
       - フラグとは: 01_textbook/01_pgintro/flag.md
     - 02_Pythonとは:
       - Pythonとは: 01_textbook/02_pyintro/index.md
-    - 03_Pythonの基本:
-      - Pythonの基本: 01_textbook/03_pgbasic/index.md
-      - 関数とは: 01_textbook/03_pgbasic/what_function.md
-      - print関数: 01_textbook/03_pgbasic/print_function.md
-      - print関数で改行しない方法: 01_textbook/03_pgbasic/print_function_without_newline.md
-      - print関数で末尾に空白を表示する方法: 01_textbook/03_pgbasic/print_function_with_trailing_spaces.md
-      - print関数で改行だけする方法: 01_textbook/03_pgbasic/print_function_only_newline.md
-      - コメントとは: 01_textbook/03_pgbasic/comment.md
-      - Pythonでプログラムを書くときのルール: 01_textbook/03_pgbasic/rule.md
-      - 四則演算子について学ぼう: 01_textbook/03_pgbasic/four_arithmetic_operations.md
-      - ブロックとインデント: 01_textbook/03_pgbasic/block_and_indent.md
-    - 04_基本文法:
-      - 基本文法: 01_textbook/04_basic/index.md
-      - エラーについて学ぼう: 01_textbook/04_basic/about_error.md
-      - 初心者のルール違反あるある: 01_textbook/04_basic/beginners_rule_violations.md
+    - 03_プログラムの基本:
+      - プログラムの基本: 01_textbook/03_pgbasic/index.md
+    - 04_Pythonの基本:
+      - Pythonの基本: 01_textbook/04_pybasic/index.md
+      - 関数とは: 01_textbook/04_pybasic/what_function.md
+      - print関数: 01_textbook/04_pybasic/print_function.md
+      - print関数で改行しない方法: 01_textbook/04_pybasic/print_function_without_newline.md
+      - print関数で末尾に空白を表示する方法: 01_textbook/04_pybasic/print_function_with_trailing_spaces.md
+      - print関数で改行だけする方法: 01_textbook/04_pybasic/print_function_only_newline.md
+      - コメントとは: 01_textbook/04_pybasic/comment.md
+      - Pythonでプログラムを書くときのルール: 01_textbook/04_pybasic/rule.md
+      - 四則演算子について学ぼう: 01_textbook/04_pybasic/four_arithmetic_operations.md
+      - ブロックとインデント: 01_textbook/04_pybasic/block_and_indent.md
+      - エラーについて学ぼう: 01_textbook/04_pybasic/about_error.md
+      - 初心者のルール違反あるある: 01_textbook/04_pybasic/beginners_rule_violations.md
     - 05_変数とデータ型:
       - 変数とデータ型: 01_textbook/05_variables/index.md
       - 文字列型: 01_textbook/05_variables/string.md
@@ -59,6 +59,7 @@ nav:
       - 文字列に変数を埋め込む方法を学ぼう: 01_textbook/06_string/formatted_string.md
       - 文字列を置換するreplaceメソッドを学ぼう: 01_textbook/06_string/replace_method.md
       - 文字列を繰り返す: 01_textbook/06_string/repeat_string.md
+      - 文字列の出現回数を数える: 01_textbook/06_string/count_string.md
     - 07_演算子:
       - 演算子: 01_textbook/07_operator/index.md
       - 比較演算子: 01_textbook/07_operator/comparison_operator.md
@@ -88,6 +89,12 @@ nav:
       - range関数: 01_textbook/13_iterating/range_function.md
     - 14_ファイル・フォルダ操作:
       - ファイル・フォルダ操作: 01_textbook/14_files/index.md
+      - ファイル入出力の基本手順: 01_textbook/14_files/file_io_basic.md
+      - ファイルオブジェクト: 01_textbook/14_files/file_object.md
+      - オブジェクトとは: 01_textbook/21_oo/object_basic.md
+      - ファイルを開く: 01_textbook/14_files/open_file.md
+      - ファイルの読み込み: 01_textbook/14_files/read_file.md
+      - ファイルを閉じる: 01_textbook/14_files/close_file.md
     - 15_日付時刻操作:
       - 日付時刻操作: 01_textbook/15_datetime/index.md
     - 16_自作関数:
@@ -123,11 +130,11 @@ nav:
       - ミッション: 02_missions/02_mission/mission.md
       - デモ: 02_missions/02_mission/demo_01.md
       - レッスン:
-        - 関数とは: 01_textbook/03_pgbasic/what_function.md
-        - print関数: 01_textbook/03_pgbasic/print_function.md
+        - 関数とは: 01_textbook/04_pybasic/what_function.md
+        - print関数: 01_textbook/04_pybasic/print_function.md
         - 文字列型: 01_textbook/05_variables/string.md
-        - コメントとは: 01_textbook/03_pgbasic/comment.md
-        - Pythonでプログラムを書くときのルール: 01_textbook/03_pgbasic/rule.md
+        - コメントとは: 01_textbook/04_pybasic/comment.md
+        - Pythonでプログラムを書くときのルール: 01_textbook/04_pybasic/rule.md
       - トライ: 02_missions/02_mission/try_01.md
       - グッジョブ: 02_missions/02_mission/good_job.md
     - 第3ミッション:
@@ -135,8 +142,8 @@ nav:
       - ミッション: 02_missions/03_mission/mission.md
       - デモ: 02_missions/03_mission/demo_01.md
       - レッスン:
-        - エラーについて学ぼう: 01_textbook/04_basic/about_error.md
-        - 初心者のルール違反あるある: 01_textbook/04_basic/beginners_rule_violations.md
+        - エラーについて学ぼう: 01_textbook/04_pybasic/about_error.md
+        - 初心者のルール違反あるある: 01_textbook/04_pybasic/beginners_rule_violations.md
       - トライ: 02_missions/03_mission/try_01.md
       - グッジョブ: 02_missions/03_mission/good_job.md
     - 第4ミッション:
@@ -144,7 +151,7 @@ nav:
       - ミッション: 02_missions/04_mission/mission.md
       - デモ（1）: 02_missions/04_mission/demo_01.md
       - レッスン:
-        - 四則演算子について学ぼう: 01_textbook/03_pgbasic/four_arithmetic_operations.md
+        - 四則演算子について学ぼう: 01_textbook/04_pybasic/four_arithmetic_operations.md
       - トライ（1）: 02_missions/04_mission/try_01.md
       - デモ（2）: 02_missions/04_mission/demo_02.md
       - レッスン:
@@ -197,7 +204,7 @@ nav:
         - 条件分岐のバリエーション: 01_textbook/01_pgintro/conditional_branch_variations.md
         - if文（満たすときだけ処理）: 01_textbook/12_condition/if_branch.md
         - if文（満たさない場合も処理）: 01_textbook/12_condition/if_else_branch.md
-        - ブロックとインデント: 01_textbook/03_pgbasic/block_and_indent.md
+        - ブロックとインデント: 01_textbook/04_pybasic/block_and_indent.md
         - 条件式: 01_textbook/07_operator/conditional_expression.md
         - 比較演算子: 01_textbook/07_operator/comparison_operator.md
         - 真偽値: 01_textbook/01_pgintro/boolean_value.md
@@ -212,7 +219,7 @@ nav:
       - レッスン:
         - うるう年かそうでないか判定する方法を学ぼう（1）: 02_missions/07_mission/lesson_02.md
         - フラグとは: 01_textbook/01_pgintro/flag.md
-        - print関数で改行しない方法: 01_textbook/03_pgbasic/print_function_without_newline.md
+        - print関数で改行しない方法: 01_textbook/04_pybasic/print_function_without_newline.md
         - うるう年かそうでないか判定する方法を学ぼう（2）: 02_missions/07_mission/lesson_03.md
       - トライ（3）: 02_missions/07_mission/try_03.md
       - グッジョブ: 02_missions/07_mission/good_job.md
@@ -249,8 +256,8 @@ nav:
       - デモ(1): 02_missions/09_mission/demo_01.md
       - レッスン(1):
         - 九九を表示する方法を学ぼう: 02_missions/09_mission/lesson_01.md
-        - print関数で末尾に空白を表示する方法: 01_textbook/03_pgbasic/print_function_with_trailing_spaces.md
-        - print関数で改行だけする方法: 01_textbook/03_pgbasic/print_function_only_newline.md
+        - print関数で末尾に空白を表示する方法: 01_textbook/04_pybasic/print_function_with_trailing_spaces.md
+        - print関数で改行だけする方法: 01_textbook/04_pybasic/print_function_only_newline.md
         - 二重ループのプログラム（for文）: 01_textbook/13_iterating/double_loop_with_for_statement.md
         - 九九を表示する方法: 02_missions/09_mission/lesson_02.md
       - トライ(1): 02_missions/09_mission/try_01.md
@@ -281,7 +288,29 @@ nav:
         - 棒グラフを表示する方法を学ぼう: 02_missions/10_mission/lesson_03.md
       - トライ(3): 02_missions/10_mission/try_03.md
       - グッジョブ: 02_missions/10_mission/good_job.md
-
+    - 第11ミッション:
+      - アジェンダ: 02_missions/11_mission/index.md
+      - ミッション: 02_missions/11_mission/mission.md
+      - デモ(1): 02_missions/11_mission/demo_01.md
+      - レッスン(1):
+        - ファイルを読み込む方法を学ぼう: 02_missions/11_mission/lesson_01.md
+        - ファイル入出力の基本手順: 01_textbook/14_files/file_io_basic.md
+        - ファイルオブジェクト: 01_textbook/14_files/file_object.md
+        - オブジェクトとは: 01_textbook/21_oo/object_basic.md
+        - ファイルを開く: 01_textbook/14_files/open_file.md
+        - ファイルの読み込み: 01_textbook/14_files/read_file.md
+        - ファイルを閉じる: 01_textbook/14_files/close_file.md
+      - トライ(1): 02_missions/11_mission/try_01.md
+      - デモ(2): 02_missions/11_mission/demo_02.md
+      - レッスン(2):
+        - 文字列の出現回数を数える方法を学ぼう: 02_missions/11_mission/lesson_02.md
+        - 文字列の出現回数を数える: 01_textbook/06_string/count_string.md
+      - トライ(2): 02_missions/11_mission/try_02.md
+      - デモ(3): 02_missions/11_mission/demo_03.md
+      - レッスン(3):
+        - ファイルを読み指定文字列の出現数をカウントする方法を学ぼう: 02_missions/11_mission/lesson_03.md
+      - トライ(3): 02_missions/11_mission/try_03.md
+      - グッジョブ: 02_missions/11_mission/good_job.md
 
 
 

@@ -3,8 +3,8 @@
 
 * [プログラミングとは](01_pgintro/index.md)
 * [Pythonとは](02_pyintro/index.md)
-* [Pythonの基本](03_pgbasic/index.md)
-* [基本文法](04_basic/index.md)
+* [プログラムの基本](03_pgbasic/index.md)
+* [Pythonの基本](04_pybasic/index.md)
 * [変数とデータ型](05_variables/index.md)
 * [文字列操作](06_string/index.md)
 * [演算子](07_operator/index.md)

@@ -5,8 +5,8 @@
 
 <!-- * [プログラミングとは](01_textbook/01_pgintro/index.md)
 * [Pythonとは](01_textbook/02_pyintro/index.md)
-* [Pythonの基本](01_textbook/03_pgbasic/index.md)
-* [基本文法](01_textbook/04_basic/index.md)
+* [プログラムの基本](01_textbook/03_pgbasic/index.md)
+* [Pythonの基本](01_textbook/04_pybasic/index.md)
 * [変数とデータ型](01_textbook/05_variables/index.md)
 * [文字列操作](01_textbook/06_string/index.md)
 * [演算子](01_textbook/07_operator/index.md)

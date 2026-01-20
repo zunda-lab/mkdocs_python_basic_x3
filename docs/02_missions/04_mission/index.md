@@ -4,7 +4,7 @@
 * [ミッション](./mission.md)
 * [デモ(1)](./demo_01.md)
 * レッスン(1)
-    * [四則演算子について学ぼう](../../01_textbook/03_pgbasic/four_arithmetic_operations.md)
+    * [四則演算子について学ぼう](../../01_textbook/04_pybasic/four_arithmetic_operations.md)
 * [トライ(1)](./try_01.md)
 * [デモ(2)](./demo_02.md)
 * レッスン(1)
