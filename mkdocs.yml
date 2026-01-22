@@ -123,8 +123,17 @@ nav:
     - 25_正規表現:
       - 正規表現: 01_textbook/25_re/index.md
 
+
   - ミッション:
     - はじめに: 02_missions/index.md
+    - 第1ミッション:
+      - アジェンダ: 02_missions/01_mission/index.md
+      - ミッション: 02_missions/01_mission/mission.md
+      - デモ: 02_missions/01_mission/demo_01.md
+      - レッスン:
+        - コーディング演習について学ぼう: 02_missions/01_mission/lesson_01.md
+      - トライ: 02_missions/01_mission/try_01.md
+      - グッジョブ: 02_missions/01_mission/good_job.md
     - 第2ミッション:
       - アジェンダ: 02_missions/02_mission/index.md
       - ミッション: 02_missions/02_mission/mission.md
