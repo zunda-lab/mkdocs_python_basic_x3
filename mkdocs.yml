@@ -24,17 +24,43 @@ markdown_extensions:
 
 nav:
   - トップページ: index.md
+  - オリエンテーション:
+    - オリエンテーショントップページ: 00_orientation/index.md
+    - 00_プロモーションビデオ:
+      - プロモーションビデオ: 00_orientation/00_promotional_video/index.md
+    - 01_オリエンテーション:
+      - オリエンテーション: 00_orientation/01_orientation/index.md
+    - 02_ご購入の前に（注意事項）:
+      - ご購入の前に（注意事項）: 00_orientation/02_important_notes/index.md
+    - 03_プログラムとは:
+      - プログラムとは_アジェンダ: 00_orientation/03_what_program/index.md
+      - プログラムとは_はじめに: 00_orientation/03_what_program/lesson_01.md
+      - プログラムとは: 01_textbook/01_pgintro/what_program.md
+      - プログラミングとは: 01_textbook/01_pgintro/what_programming.md
+      - プログラムの流れ: 01_textbook/01_pgintro/program_flow.md
+    - 04_Pythonとは:
+      - Pythonとは_アジェンダ: 00_orientation/04_what_python/index.md
+      - Pythonとは_はじめに: 00_orientation/04_what_python/lesson_01.md
+      - ITエンジニアが学びたいプログラミング言語ランキング: 01_textbook/02_pyintro/python_ranking_learn.md
+      - Pythonの特徴: 01_textbook/02_pyintro/features_of_python.md
+    - 05_添付資料:
+      - 添付資料: 00_orientation/05_attachments/index.md
   - 教科書:
     - 教科書トップページ: 01_textbook/index.md
     - 01_プログラミングとは:
-      - プログラミングとは: 01_textbook/01_pgintro/index.md
+      - プログラミングとは_アジェンダ: 01_textbook/01_pgintro/index.md
+      - プログラムとは: 01_textbook/01_pgintro/what_program.md
+      - プログラミングとは: 01_textbook/01_pgintro/what_programming.md
       - プログラムの流れ: 01_textbook/01_pgintro/program_flow.md
+      - 制御構文: 01_textbook/01_pgintro/control_statements.md
       - 繰り返し: 01_textbook/01_pgintro/iterating.md
       - 真偽値: 01_textbook/01_pgintro/boolean_value.md
       - 条件分岐のバリエーション: 01_textbook/01_pgintro/conditional_branch_variations.md
       - フラグとは: 01_textbook/01_pgintro/flag.md
     - 02_Pythonとは:
       - Pythonとは: 01_textbook/02_pyintro/index.md
+      - ITエンジニアが学びたいプログラミング言語ランキング: 01_textbook/02_pyintro/python_ranking_learn.md
+      - Pythonの特徴: 01_textbook/02_pyintro/features_of_python.md
     - 03_プログラムの基本:
       - プログラムの基本: 01_textbook/03_pgbasic/index.md
     - 04_Pythonの基本:
@@ -209,7 +235,7 @@ nav:
       - デモ（1）: 02_missions/07_mission/demo_01.md
       - レッスン:
         - 奇数偶数の判定方法を学ぼう: 02_missions/07_mission/lesson_01.md
-        - プログラムの流れ: 01_textbook/01_pgintro/program_flow.md
+        - 制御構文: 01_textbook/01_pgintro/control_statements.md
         - 条件分岐のバリエーション: 01_textbook/01_pgintro/conditional_branch_variations.md
         - if文（満たすときだけ処理）: 01_textbook/12_condition/if_branch.md
         - if文（満たさない場合も処理）: 01_textbook/12_condition/if_else_branch.md
