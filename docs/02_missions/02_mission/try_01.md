@@ -1,3 +1,3 @@
 # トライ（1）
 
-[こちら](../../02_missions/pyscript.html?id=1)
+[演習環境はこちら](../../02_missions/pyscript.html?exercise=aaa&evaluate=bbb)

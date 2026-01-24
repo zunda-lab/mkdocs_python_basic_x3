@@ -11,25 +11,20 @@
         <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
         <!-- This script tag bootstraps PyScript -->
         <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const exercise = urlParams.get('exercise');
+            alert(exercise);
+            const evaluate = urlParams.get('evaluate');
+            alert(evaluate);
+
+        </script>
     </head>
     <body>
-        <py-script>
-            import sys
-            from pyscript import display
-
-            display(sys.version)
-        </py-script>
-        <!-- your code goes here... -->
         <script type="py-editor">
-  import sys
-  print(sys.version)
-</script>
-<script type="mpy-editor">
-  import sys
-  print(sys.version)
-  a = 42
-  print(a)
-</script>
+        import sys
+        print(sys.version)
+        </script>
     </body>
 </html>
 
