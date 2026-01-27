@@ -27,35 +27,35 @@
             // const editor = document.getElementById("editor_exercise")
             // editor.setAttribute("src", exercise_py_fpath)
 
-            fetch(exercise_py_fpath)
-                .then(response => response.text())
-                .then(data => {
-                    // // alert(data)
-                    // const body = document.getElementsByTagName("body")[0];
-                    // const script = document.createElement("script");
-                    // script.type = "py-editor";
-                    // s = data.replace(/\n/, '<br>');
-                    // script.innerText = data;
-                    // // script.innerText = `print('Hello World!')
-                    // // n = 100`;
-                    // body.appendChild(script);
+//             fetch(exercise_py_fpath)
+//                 .then(response => response.text())
+//                 .then(data => {
+//                     // // alert(data)
+//                     // const body = document.getElementsByTagName("body")[0];
+//                     // const script = document.createElement("script");
+//                     // script.type = "py-editor";
+//                     // s = data.replace(/\n/, '<br>');
+//                     // script.innerText = data;
+//                     // // script.innerText = `print('Hello World!')
+//                     // // n = 100`;
+//                     // body.appendChild(script);
 
-                    // // const editor = document.getElementById("editor_exercise")
+//                     // // const editor = document.getElementById("editor_exercise")
 
-                    // // editor.innerText = data
-                    const body = document.getElementsByTagName("body")[0];
-                    let div = document.createElement("div");
-                    let html = `<script type="py-editor">
-  import sys
-  print(sys.version)
-</script>`
-                    div.innerHTML = html;
-                    body.appendChild(div);
-                    // const script = document.createElement("");
-                    // body.appendChild(script);
+//                     // // editor.innerText = data
+//                     const body = document.getElementsByTagName("body")[0];
+//                     let div = document.createElement("div");
+//                     let html = `<script type="py-editor">
+//   import sys
+//   print(sys.version)
+// </script>`;
+//                     div.innerHTML = html;
+//                     body.appendChild(div);
+//                     // const script = document.createElement("");
+//                     // body.appendChild(script);
 
-                })
-                .catch(error => console.error('Error:', error));
+//                 })
+//                 .catch(error => console.error('Error:', error));
 
             // const evaluate = urlParams.get('evaluate');
             // alert(evaluate);
