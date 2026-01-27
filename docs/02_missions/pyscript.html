@@ -8,23 +8,62 @@
         <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
         <script src="coi-serviceworker.js"></script>
         <!-- PyScript CSS -->
-        <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
         <!-- This script tag bootstraps PyScript -->
-        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
-        <script>
-            const urlParams = new URLSearchParams(window.location.search);
-            const exercise = urlParams.get('exercise');
-            alert(exercise);
-            const evaluate = urlParams.get('evaluate');
-            alert(evaluate);
-
-        </script>
     </head>
     <body>
-        <script type="py-editor">
+        <!-- <script id="editor_exercise" src="" type="py-editor">
+        </script> -->
+        <!-- <script type="py-editor">
         import sys
         print(sys.version)
+        </script> -->
+
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const exercise_id = urlParams.get("exercise_id");
+            // url = 'https://github.com/zunda-lab/mkdocs_python_basic_x3/blob/main/coding_exercise/' + exercise_id + "";
+            exercise_py_fpath = "../03_coding_exercise/" + exercise_id + "/exercise.py";
+            // alert(exercise_py_fpath);
+            // const editor = document.getElementById("editor_exercise")
+            // editor.setAttribute("src", exercise_py_fpath)
+
+            fetch(exercise_py_fpath)
+                .then(response => response.text())
+                .then(data => {
+                    // // alert(data)
+                    // const body = document.getElementsByTagName("body")[0];
+                    // const script = document.createElement("script");
+                    // script.type = "py-editor";
+                    // s = data.replace(/\n/, '<br>');
+                    // script.innerText = data;
+                    // // script.innerText = `print('Hello World!')
+                    // // n = 100`;
+                    // body.appendChild(script);
+
+                    // // const editor = document.getElementById("editor_exercise")
+
+                    // // editor.innerText = data
+                    const body = document.getElementsByTagName("body")[0];
+                    let div = document.createElement("div");
+                    let html = `<script type="py-editor">
+  import sys
+  print(sys.version)
+</script>`
+                    div.innerHTML = html;
+                    body.appendChild(div);
+                    // const script = document.createElement("");
+                    // body.appendChild(script);
+
+                })
+                .catch(error => console.error('Error:', error));
+
+            // const evaluate = urlParams.get('evaluate');
+            // alert(evaluate);
+
         </script>
+        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+
     </body>
 </html>
 
